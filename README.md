@@ -23,4 +23,4 @@ Simple snippets for conventional commits
 | `revert`     | Commits, that undo changes in commits
 
 
-## [Change Logs](./CHANGELOG.md)
+#### [Change Logs](./CHANGELOG.md)
