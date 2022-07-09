@@ -2,7 +2,7 @@
     "name": "conventional-snippets",
     "displayName": "Conventional Snippets",
     "description": "Simple snippets for conventional commits",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "brunodavi",
     "icon": "images/conventional-snippets.png",
     "license": "SEE LICENSE IN LICENSE.md",
