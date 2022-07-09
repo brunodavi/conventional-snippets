@@ -1,0 +1,98 @@
+{
+	"Feature": {
+		"prefix": "feat",
+		"description": "Commits, that adds a new feature",
+		"body": [
+			"feat(${1:scope}): ${2:commit-title}",
+			"$0"
+		]
+	},
+	"Fix Bugs": {
+		"prefix": "fix",
+		"description": "Commits, that fixes a bug",
+		"body": [
+			"fix(${1:scope}): ${2:commit-title}",
+			"$0"
+		]
+	},
+	"Restructure your code": {
+		"prefix": "refactor",
+		"description": "Commits, that rewrite/restructure your code, however does not change any behavior",
+		"body": [
+			"refactor(${1:scope}): ${2:commit-title}",
+			"$0"
+		]
+	},
+	"Performance improvement": {
+		"prefix": "perf",
+		"description": "Commits are special refactor commits, that improve performance",
+		"body": [
+			"perf(${1:scope}): ${2:commit-title}",
+			"$0"
+		]
+	},
+	"Improved code formatting": {
+		"prefix": "style",
+		"description": "Commits, that do not affect the meaning (white-space, formatting, missing semi-colons, etc)",
+		"body": [
+			"style(${1:scope}): ${2:commit-title}",
+			"$0"
+		]
+	},
+	"Test changes": {
+		"prefix": "test",
+		"description": "Commits, that add missing tests or correcting existing tests",
+		"body": [
+			"test(${1:scope}): ${2:commit-title}",
+			"$0"
+		]
+	},
+	"Documentation changes": {
+		"prefix": "docs",
+		"description": "Commits, that affect documentation only",
+		"body": [
+			"docs(${1:scope}): ${2:commit-title}",
+			"$0"
+		]
+	},
+	"Compilation changes": {
+		"prefix": "build",
+		"description": "Commits, that affect build components like build tool, ci pipeline, dependencies, project version",
+		"body": [
+			"build(${1:scope}): ${2:commit-title}",
+			"$0"
+		]
+	},
+	"Deployment fixes": {
+		"prefix": "ops",
+		"description": "Commits, that affect operational components like infrastructure, deployment, backup, recovery",
+		"body": [
+			"ops(${1:scope}): ${2:commit-title}",
+			"$0"
+		]
+	},
+	"Changes for developers": {
+		"prefix": "chore",
+		"description": "Miscellaneous commits e.g. modifying .gitignore",
+		"body": [
+			"chore(${1:scope}): ${2:commit-title}",
+			"$0"
+		]
+	},
+	"Configuration scripts": {
+		"prefix": "ci",
+		"description": "Commits, which change configuration scripts",
+		"body": [
+			"ci(${1:scope}): ${2:commit-title}",
+			"$0"
+		]
+	},
+	"Undo commit": {
+		"prefix": "revert",
+		"description": "Commits, that undo changes in commits",
+		"body": [
+			"revert(${1:scope}): ${2:commit-title}",
+			"$0"
+		]
+	},
+}

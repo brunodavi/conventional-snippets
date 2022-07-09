@@ -1,0 +1,30 @@
+{
+    "name": "conventional-snippets",
+    "displayName": "Conventional Snippets",
+    "description": "Simple snippets for conventional commits",
+    "version": "0.0.1",
+    "publisher": "brunodavi",
+    "icon": "./images/conventional-snippets.png",
+    "author": {
+        "name": "brunodavi",
+        "url": "https://github.com/brunodavi"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/brunodavi/conventional-snippets"
+    },
+    "engines": {
+        "vscode": "^1.69.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "git-commit",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
