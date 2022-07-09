@@ -4,7 +4,8 @@
     "description": "Simple snippets for conventional commits",
     "version": "0.0.1",
     "publisher": "brunodavi",
-    "icon": "./images/conventional-snippets.png",
+    "icon": "images/conventional-snippets.png",
+    "license": "SEE LICENSE IN LICENSE.md",
     "author": {
         "name": "brunodavi",
         "url": "https://github.com/brunodavi"
